@@ -30,7 +30,7 @@ import java.util.Map;
  * 这简化了调用代码，允许它假设始终会返回值，即使缓存未命中。
  *
  * 默认情况下，缓存大小以 entry 的数量计算。
- * 重写 {@link #sizeOf} 来以不同单位度量缓存大小。 For example, this cache
+ * 重写 {@link #sizeOf} 来以不同单位度量缓存大小。
  * 例如，此缓存限制4MB的 bitmap：
  * <pre>   {@code
  *   int cacheSize = 4 * 1024 * 1024; // 4MiB
