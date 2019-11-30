@@ -238,7 +238,7 @@ public class LruCache<K, V> {
     }
 
     /**
-     * 为已被逐出或移除的项调用。This method is
+     * 为已被逐出或移除的项调用。
      * 当一个值被移除以腾出空间，或被 {@link #remove} 移除，
      * 又或者被 {@link #put} 替换时，将调用此方法。
      * 默认实现为空。
